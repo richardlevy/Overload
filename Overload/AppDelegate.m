@@ -7,12 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "Overload.h"
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [[[Overload alloc]init]playGame];
 }
 
 @end
